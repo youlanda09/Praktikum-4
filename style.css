@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('cat.jpg') repeat;
+    margin: 0;
+    padding: 0;
+}
+
+.profile-container {
+    width: 60%;
+    margin: 50px auto;
+    background: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.header {
+    background-color: cadetblue;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10 px 0 0 0;
+}
+
+.profile-content {
+    display: flex;
+    padding: 20px;
+    list-style: katakana;
+}
+
+.profile-picture {
+    flex: 1;
+    text-align: left;
+    background-color: rgb(217, 220, 220);
+    padding: 10px;
+    border-radius: 10 px 0 0 0;
+    list-style: katakana;
+}
+
+.profile-picture img {
+    width: 120px;
+    height: 150px;
+    border-radius: 10%;
+    object-fit: cover;
+
+}
+
+.profile-info {
+    flex: 2;
+    padding-left: 20px;
+}
+
+h3 {
+    color: black;
+}
+
+.highlight {
+    color: red;
+    font-weight: bold;
+}
+
+.edu-link {
+    color: red;
+    text-decoration: none;
+    
+}
+
+.edu-link:hover {
+    opacity: 0;
+    text-decoration: none;
+    
+}
+
+.projects {
+    padding: 20px;
+
+}
+
+.a1{
+    color: green;
+    text-decoration: none;
+    
+}
+
+.a2{
+    color: green;
+    text-decoration: none;
+    
+}
+
+.a3{
+    color: green;
+    text-decoration: none;
+    
+}
+
+.a1:hover {
+    color: green;
+    background: plum;
+    padding: 2px;
+    text-decoration: none;
+    
+}
+.a2:hover{
+    color: green;
+    background: plum;
+    padding: 2px;
+    text-decoration: none;
+    
+}
+.a3:hover{
+    color: green;
+    background: plum;
+    padding: 2px;
+    text-decoration: none;
+    
+}
+.projects ol {
+    list-style: katakana;
+    padding: 0;
+}
+
+.profile-content ol{
+    list-style: katakana;
+}
+
