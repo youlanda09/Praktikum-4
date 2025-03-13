@@ -1,0 +1,92 @@
+body {
+    font-family: Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3ecea;
+}
+
+.navbar {
+    background-color: #282b30;
+    display: flex;
+    padding: 10px;
+}
+
+.navbar a {
+    flex: 1;
+    text-align: center;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #1e2124;
+}
+
+.navbar a:active {
+    background-color: #7289da;
+}
+
+.section {
+    width: 100%;
+    padding: 50px;
+    background-color: #d9eee1;
+}
+
+.section1{
+    width: 100%;
+    padding: 50px;
+    background-color: #fff4a3;
+}
+
+.section2 {
+    width: 100%;
+    padding: 50px;
+    background-color: #f3ecea;
+}
+
+.content {
+    width: 50%;
+    text-align: center;
+}
+
+.code {
+    width: 50%;
+    text-align: left;
+    padding: 20px;
+}
+
+.code img {
+    width: 100%;
+    max-width: 400px;
+    display: block;
+}
+
+.btn {
+    display: block;
+    width: 200px;
+    padding: 10px;
+    margin: 10px auto;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+}
+
+.learn {
+    background-color: #04aa6d;
+    color: white;
+    border-radius: 300px;
+}
+
+.ref {
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+}
+
+.cert {
+    background-color: pink;
+    border-radius: 30px;
+}
+
